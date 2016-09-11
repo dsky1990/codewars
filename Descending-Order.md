@@ -17,6 +17,6 @@ function descendingOrder(n){
 优化后
 ```js
 function descendingOrder(n){
-  return parseInt(String(n).split('').sort().reverse().join(''));
+  return Number(String(n).split('').sort().reverse().join(''));
 }
 ```
