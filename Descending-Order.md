@@ -14,3 +14,9 @@ function descendingOrder(n){
   return result;
 }
 ```
+优化后
+```js
+function descendingOrder(n){
+  return parseInt(String(n).split('').sort().reverse().join(''));
+}
+```
