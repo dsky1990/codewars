@@ -10,7 +10,7 @@ function descendingOrder(n){
     return b - a;
   }
   orderArray = orderArray.sort(sortNumber);
-  result = Number(orderArray.join().replace(/,/g,''));
+  result = Number(orderArray.join(''));
   return result;
 }
 ```
