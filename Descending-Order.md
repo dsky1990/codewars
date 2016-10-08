@@ -3,9 +3,9 @@
 
 ```js
 function descendingOrder(n){
-  var str = ''+n;
-  var orderArray = str.split('');
-  var result = null;
+  let str = ''+n;
+  let orderArray = str.split('');
+  let result = null;
   function sortNumber(a,b) {
     return b - a;
   }
